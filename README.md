@@ -1,6 +1,7 @@
 # 유튜브 MP3/MP4 추출기
 
 PyQt6 기반 데스크톱 애플리케이션으로, YouTube 동영상에서 MP3 오디오 또는 MP4 비디오를 다운로드합니다.
+**중요:** [Releases] 페이지에서 배포용 실행 파일을 다운로드하시면, **별도의 ffmpeg 설치 없이 바로 사용**하실 수 있습니다.
 
 ## 주요 기능
 
@@ -13,16 +14,22 @@ PyQt6 기반 데스크톱 애플리케이션으로, YouTube 동영상에서 MP3 
 
 ## 시스템 요구 사항
 
-- Windows 10/11
+### 1. 일반 사용자 (릴리즈 버전 실행 시)
+- Windows 10/11 (추가 설치 요소 없음)
+- 
+### 2. 개발자 (소스 코드에서 직접 실행/빌드 시)
 - ffmpeg (자동 감지되지 않을 경우 [ffmpeg.org](https://ffmpeg.org/download.html)에서 설치)
 
 ## 실행 방법
 
-### 실행 파일 사용 (권장)
+### 방법 1. 실행 파일 사용 (일반 사용자 권장)
 
-`dist/YouTube_Downloader/` 폴더의 `YouTube_Downloader.exe`를 더블 클릭하여 실행합니다.
+1. 본 레포지토리 우측의 **Releases** 메뉴에서 최신 버전의 `YouTube_Downloader.zip`을 다운로드합니다.
+2. 압축을 해제한 후, **`YouTube_Downloader.exe`**를 더블 클릭하여 실행합니다.
+*(이 패키지에는 ffmpeg가 내장되어 있어 별도의 설치가 필요하지 않습니다.)*
 
-### 소스 코드에서 실행
+
+### 방법 2. 소스 코드에서 실행 (개발자용)
 
 ```bash
 pip install -r requirements.txt
@@ -45,6 +52,7 @@ python main.py
 ### 1. Python 환경 설정
 
 Python 3.10 이상이 설치되어 있는지 확인합니다.
+현재 빌드는 3.13 에서 빌드 하였습니다.
 
 ```bash
 python --version
