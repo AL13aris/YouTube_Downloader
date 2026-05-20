@@ -16,7 +16,7 @@ PyQt6 기반 데스크톱 애플리케이션으로, YouTube 동영상에서 MP3 
 
 ### 1. 일반 사용자 (릴리즈 버전 실행 시)
 - Windows 10/11 (추가 설치 요소 없음)
-- 
+
 ### 2. 개발자 (소스 코드에서 직접 실행/빌드 시)
 - ffmpeg (자동 감지되지 않을 경우 [ffmpeg.org](https://ffmpeg.org/download.html)에서 설치)
 
