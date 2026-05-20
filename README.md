@@ -193,3 +193,8 @@ This project is for **educational, research, and personal backup purposes only**
 2. **이용약관 및 저작권:** 승인되지 않은 저작물 콘텐츠를 다운로드하는 행위는 유튜브 서비스 이용약관 및 관련 저작권법을 위반할 수 있습니다. 개발자는 본 도구를 통한 저작권 침해나 오남용을 절대 조장하거나 권장하지 않습니다.
 3. **사용자 책임:** 본 소스코드를 실행, 수정 또는 활용함으로써 발생하는 모든 법적 책임과 리스크는 전적으로 사용자 본인에게 있습니다.
 4. **보증 없음:** GNU General Public License v3 (GPL v3) 라이센스에 의거하여, 본 소프트웨어는 명시적 또는 묵시적인 어떠한 종류의 보증 없이 "있는 그대로" 제공됩니다. 개발자는 본 소프트웨어 사용으로 인해 발생하는 어떠한 손해나 계정 제재에 대해서도 책임을 지지 않습니다.
+
+> 🛑 **Project Status: Archived / End of Life**
+> This project is a completed technical study and is **no longer maintained or updated**. It will break naturally when YouTube updates its protocols.
+> 
+> (본 프로젝트는 기술 연구 목적으로 완료된 프로젝트이며, **더 이상의 업데이트나 유지보수는 제공되지 않습니다.** 유튜브의 프로토콜 변경 시 작동하지 않을 수 있습니다.)
