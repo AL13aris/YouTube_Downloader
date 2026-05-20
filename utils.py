@@ -1,5 +1,19 @@
 """Utility functions for the YouTube Downloader application."""
+"""
+Copyright (C) 2026 AL13aris
 
+[License]
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+[⚠️ PROJECT STATUS: ARCHIVED / UNMAINTAINED]
+- EN: This project is a completed technical study for educational and personal backup purposes only. 
+      It is NO LONGER MAINTAINED or updated. Use at your own risk.
+- KR: 본 프로젝트는 교육 및 개인 백업 목적의 기술 연구용으로 완결된 프로젝트입니다. 
+      현재는 유지보수 및 업데이트가 완전히 중단(Archived)되었으며, 본 코드로 인해 발생하는 모든 책임은 사용자에게 있습니다.
+"""
 import json
 import os
 import re
