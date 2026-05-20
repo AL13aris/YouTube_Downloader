@@ -27,6 +27,7 @@ PyQt6 기반 데스크톱 애플리케이션으로, YouTube 동영상에서 MP3 
 
 1. 본 레포지토리 우측의 **Releases** 메뉴에서 최신 버전의 `YouTube_Downloader.zip`을 다운로드합니다.
 2. 압축을 해제한 후, **`YouTube_Downloader.exe`**를 더블 클릭하여 실행합니다.
+
 *(이 패키지에는 ffmpeg가 내장되어 있어 별도의 설치가 필요하지 않습니다.)*
 
 
