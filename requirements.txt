@@ -1,0 +1,5 @@
+# YouTube Downloader Dependencies
+# PyQt6: GUI framework for building desktop application interface
+PyQt6>=6.7
+# yt-dlp: Video/audio downloader library for extracting audio from YouTube
+yt-dlp[default]>=2025.1.0
